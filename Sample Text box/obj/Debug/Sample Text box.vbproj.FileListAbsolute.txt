@@ -1,0 +1,13 @@
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\bin\Debug\Sample Text box.exe.config
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\bin\Debug\Sample Text box.exe
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\bin\Debug\Sample Text box.pdb
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\bin\Debug\Sample Text box.xml
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\obj\Debug\Sample Text box.vbproj.AssemblyReference.cache
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\obj\Debug\Sample Text box.vbproj.SuggestedBindingRedirects.cache
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\obj\Debug\Sample_Text_box.Form1.resources
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\obj\Debug\Sample_Text_box.Resources.resources
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\obj\Debug\Sample Text box.vbproj.GenerateResource.cache
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\obj\Debug\Sample Text box.vbproj.CoreCompileInputs.cache
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\obj\Debug\Sample Text box.exe
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\obj\Debug\Sample Text box.xml
+C:\Users\admin.DESKTOP-RD36MUF\source\repos\Sample Text box\Sample Text box\obj\Debug\Sample Text box.pdb

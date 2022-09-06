@@ -22,47 +22,117 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnSubmit = New System.Windows.Forms.Button()
+        Me.btnAddition = New System.Windows.Forms.Button()
         Me.lblName = New System.Windows.Forms.Label()
-        Me.typeTextHere = New System.Windows.Forms.TextBox()
+        Me.txtFirstNum = New System.Windows.Forms.TextBox()
+        Me.txtSecondNum = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnSubtraction = New System.Windows.Forms.Button()
+        Me.btnMultiplication = New System.Windows.Forms.Button()
+        Me.btnDivision = New System.Windows.Forms.Button()
+        Me.lblResult = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'btnSubmit
+        'btnAddition
         '
-        Me.btnSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSubmit.Location = New System.Drawing.Point(450, 225)
-        Me.btnSubmit.Name = "btnSubmit"
-        Me.btnSubmit.Size = New System.Drawing.Size(147, 33)
-        Me.btnSubmit.TabIndex = 0
-        Me.btnSubmit.Text = "Submit"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnAddition.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddition.Location = New System.Drawing.Point(340, 51)
+        Me.btnAddition.Name = "btnAddition"
+        Me.btnAddition.Size = New System.Drawing.Size(132, 33)
+        Me.btnAddition.TabIndex = 0
+        Me.btnAddition.Text = "Addition"
+        Me.btnAddition.UseVisualStyleBackColor = True
         '
         'lblName
         '
         Me.lblName.AutoSize = True
         Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.Location = New System.Drawing.Point(207, 229)
+        Me.lblName.Location = New System.Drawing.Point(29, 55)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(68, 25)
+        Me.lblName.Size = New System.Drawing.Size(132, 25)
         Me.lblName.TabIndex = 1
-        Me.lblName.Text = "Name"
+        Me.lblName.Text = "First number"
         '
-        'typeTextHere
+        'txtFirstNum
         '
-        Me.typeTextHere.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.typeTextHere.Location = New System.Drawing.Point(290, 226)
-        Me.typeTextHere.Name = "typeTextHere"
-        Me.typeTextHere.Size = New System.Drawing.Size(154, 31)
-        Me.typeTextHere.TabIndex = 2
+        Me.txtFirstNum.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFirstNum.Location = New System.Drawing.Point(169, 52)
+        Me.txtFirstNum.Name = "txtFirstNum"
+        Me.txtFirstNum.Size = New System.Drawing.Size(98, 31)
+        Me.txtFirstNum.TabIndex = 2
+        '
+        'txtSecondNum
+        '
+        Me.txtSecondNum.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSecondNum.Location = New System.Drawing.Point(198, 107)
+        Me.txtSecondNum.Name = "txtSecondNum"
+        Me.txtSecondNum.Size = New System.Drawing.Size(69, 31)
+        Me.txtSecondNum.TabIndex = 4
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(29, 113)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(163, 25)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Second number"
+        '
+        'btnSubtraction
+        '
+        Me.btnSubtraction.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSubtraction.Location = New System.Drawing.Point(340, 113)
+        Me.btnSubtraction.Name = "btnSubtraction"
+        Me.btnSubtraction.Size = New System.Drawing.Size(132, 33)
+        Me.btnSubtraction.TabIndex = 5
+        Me.btnSubtraction.Text = "Subtraction"
+        Me.btnSubtraction.UseVisualStyleBackColor = True
+        '
+        'btnMultiplication
+        '
+        Me.btnMultiplication.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMultiplication.Location = New System.Drawing.Point(478, 52)
+        Me.btnMultiplication.Name = "btnMultiplication"
+        Me.btnMultiplication.Size = New System.Drawing.Size(146, 33)
+        Me.btnMultiplication.TabIndex = 6
+        Me.btnMultiplication.Text = "Multiplication"
+        Me.btnMultiplication.UseVisualStyleBackColor = True
+        '
+        'btnDivision
+        '
+        Me.btnDivision.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDivision.Location = New System.Drawing.Point(478, 113)
+        Me.btnDivision.Name = "btnDivision"
+        Me.btnDivision.Size = New System.Drawing.Size(146, 33)
+        Me.btnDivision.TabIndex = 7
+        Me.btnDivision.Text = "Division"
+        Me.btnDivision.UseVisualStyleBackColor = True
+        '
+        'lblResult
+        '
+        Me.lblResult.AutoSize = True
+        Me.lblResult.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblResult.Location = New System.Drawing.Point(29, 231)
+        Me.lblResult.Name = "lblResult"
+        Me.lblResult.Size = New System.Drawing.Size(327, 29)
+        Me.lblResult.TabIndex = 8
+        Me.lblResult.Text = "Please Perform the operation"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.typeTextHere)
+        Me.ClientSize = New System.Drawing.Size(800, 305)
+        Me.Controls.Add(Me.lblResult)
+        Me.Controls.Add(Me.btnDivision)
+        Me.Controls.Add(Me.btnMultiplication)
+        Me.Controls.Add(Me.btnSubtraction)
+        Me.Controls.Add(Me.txtSecondNum)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txtFirstNum)
         Me.Controls.Add(Me.lblName)
-        Me.Controls.Add(Me.btnSubmit)
+        Me.Controls.Add(Me.btnAddition)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -70,7 +140,13 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents btnSubmit As Button
+    Friend WithEvents btnAddition As Button
     Friend WithEvents lblName As Label
-    Friend WithEvents typeTextHere As TextBox
+    Friend WithEvents txtFirstNum As TextBox
+    Friend WithEvents txtSecondNum As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents btnSubtraction As Button
+    Friend WithEvents btnMultiplication As Button
+    Friend WithEvents btnDivision As Button
+    Friend WithEvents lblResult As Label
 End Class

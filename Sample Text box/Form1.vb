@@ -5,6 +5,7 @@
 
         MsgBox("You're Name " & SampleName & ".")
 
-
+        'This is my Comment
+        'Sample comment
     End Sub
 End Class

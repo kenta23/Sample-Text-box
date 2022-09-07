@@ -56,7 +56,7 @@
         diff = 0
         diff = firstNum - SecondNum  'perform the operation of the two variables
 
-        lblResult.Text = lblResult.Text & "" & diff
+        lblResult.Text = lblResult.Text & "" & diff  'To reset the result everytime we compute the numbers 
         lblResult.Text = "The difference is " & diff
     End Sub
 End Class
